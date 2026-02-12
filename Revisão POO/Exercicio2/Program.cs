@@ -1,7 +1,7 @@
 ﻿using Exercicio2;
 
-Pessoa Livia = new Pessoa();
-Livia.Nome = "Livia";
-Livia.Idade = 20;
+Pessoa pessoa = new Pessoa();
+pessoa.Nome = "Livia";
+pessoa.Idade = 16;
 
-Livia.ExibirDados();
+pessoa.ExibirDados();

@@ -1,5 +1,8 @@
 ﻿using Exercicio1;
 
-Pessoa Livia = new Pessoa();
-Livia.Nome = "Livia";
-Livia.Idade = 20;
+Pessoa pessoa = new Pessoa();
+pessoa.Nome = "Livia";
+pessoa.Idade = 16;
+
+Console.WriteLine($"Nome: {pessoa.Nome}");
+Console.WriteLine($"Idade: {pessoa.Idade}");

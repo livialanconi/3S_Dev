@@ -1,16 +1,25 @@
-namespace Exercicio3
-{
+namespace Exercicio3;
     public class Pessoa
     {
-        public string Nome;
-        public int Idade;
+    public string Nome="";
 
-        public void ExibirDados()
+    public int Idade;
+
+    public void DefinirIdade(int valor)
+    {
+        if (valor > 0)
         {
-            Console.WriteLine($"Nome: {Nome}");
-            Console.WriteLine($"Idade: {Idade}");
-    
+            Idade = valor;
+        }
+        else
+        {
+            Console.WriteLine("Idade inválida! A idade deve ser maior que zero.");
+        }
     }
 
-}
+    public void ExibirDados()
+    {
+    Console.WriteLine($"Nome: {Nome}");
+    Console.WriteLine($"Idade: {Idade}");
+    }
     }
