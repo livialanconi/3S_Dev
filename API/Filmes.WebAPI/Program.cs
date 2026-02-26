@@ -20,6 +20,5 @@ var app = builder.Build();
 //Adiciona o mapeamento de Controllers
 app.MapControllers();
 
-app.MapGet("/", () => "Hello World!");
 
 app.Run();
