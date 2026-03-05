@@ -143,7 +143,8 @@
               "RelativeToolTip": "Controllers\\FilmeController.cs",
               "ViewState": "AgIAAKcAAAAAAAAAAAAcwLsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T18:45:21.179Z"
+              "WhenOpened": "2026-02-24T18:45:21.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -151,9 +152,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\Filmes.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\Filmes.WebAPI\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGgAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\Filmes.WebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T18:39:31.373Z",
               "EditorCaption": ""
