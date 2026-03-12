@@ -1,20 +1,20 @@
-﻿using EventPlus.WebAPI.DTO;
+using EventPlus.WebAPI.DTO;
 using EventPlus.WebAPI.Interfaces;
 using EventPlus.WebAPI.Models;
-using Microsoft.AspNetCore.Http;
+using EventPlus_.WebAPI.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventPlus.WebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class TipoEventoController : ControllerBase
+public class InstituicaoController : ControllerBase
 {
-    private ITipoEventoRepository _tipoEventoRepository;
+    private IInstituicaoRepository _instituicaoRepository;
 
-    public TipoEventoController(ITipoEventoRepository tipoEventoRepository)
+    public InstituicaoController(IInstituicaoRepository instituicaoRepository)
     {
-        _tipoEventoRepository = tipoEventoRepository;
+        _instituicaoRepository = instituicaoRepository;
     }
 
     //<sumary>
@@ -27,8 +27,8 @@ public class TipoEventoController : ControllerBase
     {
         try
         {
-            return Ok(_tipoEventoRepository.Listar());
-        }  
+            return Ok(_instituicaoRepository.Listar());
+        }
         catch (Exception erro)
         {
             return BadRequest(erro.Message);
@@ -40,13 +40,12 @@ public class TipoEventoController : ControllerBase
     //</summary>
     //<param name="id"> Id do tipo de evento buscado</param>
     //<returns>Status code 200 e tipo de evento buscado</returns>
-
     [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
         try
         {
-            return Ok(_tipoEventoRepository.BuscarPorId(id));
+            return Ok(_instituicaoRepository.BuscarPorId(id));
         }
         catch (Exception erro)
         {
@@ -59,24 +58,24 @@ public class TipoEventoController : ControllerBase
     //</summary>
     //<param name="tipoEvento">tipo de evento a ser cadastrado</param>
     //<returns>Status code 201 e o tipo de evento cadastrado</returns>
-
     [HttpPost]
-    public IActionResult Cadastrar(TipoEventoDTO tipoEvento)
+    public IActionResult Cadastrar(InstituicaoDTO instituicao)
     {
         try
         {
-            var novoTipoEvento = new TipoEvento
+            var novoInstituicao = new Instituicao
             {
-                Titulo = tipoEvento.Titulo!
+                NomeFantasia = instituicao.NomeFantasia!,
+                Cnpj = instituicao.Cnpj!,
+                Endereco = instituicao.Endereco!
             };
 
-            _tipoEventoRepository.Cadastrar(novoTipoEvento);
+            _instituicaoRepository.Cadastrar(novoInstituicao);
 
-            return StatusCode(201, novoTipoEvento);
+            return StatusCode(201, novoInstituicao);
         }
         catch (Exception erro)
         {
-
             return BadRequest(erro.Message);
         }
     }
@@ -87,18 +86,19 @@ public class TipoEventoController : ControllerBase
     //<param name="id">Id do tipo de evento a ser atualizado</param>
     //<param name="tipoEvento">tipo de evento com dados atualizados</param>
     //<returns>Status code 204 e o tipo de evento atualizado</returns>
-
     [HttpPut("{id}")]
-    public IActionResult Atualizar(Guid id, TipoEventoDTO tipoEvento)
+    public IActionResult Atualizar(Guid id, InstituicaoDTO instituicao)
     {
         try
         {
-            var tipoEventoAtualizado = new TipoEvento
+            var instituicaoAtualizada = new Instituicao
             {
-                Titulo = tipoEvento.Titulo!
+                NomeFantasia = instituicao.NomeFantasia!,
+                Cnpj = instituicao.Cnpj!,
+                Endereco = instituicao.Endereco!
             };
 
-            _tipoEventoRepository.Atualizar(id, tipoe);
+            _instituicaoRepository.Atualizar(id, instituicaoAtualizada);
             return StatusCode(204);
         }
         catch (Exception erro)
@@ -112,14 +112,13 @@ public class TipoEventoController : ControllerBase
     /// </summary>
     /// <param name="id">Id do tipo de evento a ser excluido</param>
     /// <returns>Status code 204</returns>
-
+    /// 
     [HttpDelete("{id}")]
     public IActionResult Delete(Guid id)
     {
         try
         {
-            _tipoEventoRepository.Deletar(id);
-
+            _instituicaoRepository.Deletar(id);
             return NoContent();
         }
         catch (Exception erro)

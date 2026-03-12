@@ -18,14 +18,14 @@ public class InstituicaoRepository : IInstituicaoRepository
     /// </summary>
     /// <param name="id">id do tipo instituição a ser atualizado</param>
     /// <param name="instituicao">Novos dados do tipo instituição</param>
-    public void Atualizar(Guid id, Instituicao instituicao)
+    public void Atualizar(Guid IdInstituicao, Instituicao instituicao)
     {
-        var instituicaoBuscado = _context.Instituicaos.Find(id);
+        var instituicaoBuscado = _context.Instituicaos.Find(IdInstituicao);
         if (instituicaoBuscado != null)
         {
-            instituicaoBuscado.Endereco = instituicao.Endereco;
-            instituicaoBuscado.Cnpj = instituicao.Cnpj;
-            instituicao.NomeFantasia = instituicao.NomeFantasia;
+            instituicaoBuscado.Endereco = String.IsNullOrWhiteSpace(instituicao.Endereco) ? instituicaoBuscado.Endereco : instituicao.Endereco;
+            instituicaoBuscado.Cnpj = String.IsNullOrWhiteSpace(instituicao.Cnpj) ? instituicaoBuscado.Cnpj : instituicao.Cnpj;
+            instituicao.NomeFantasia = String.IsNullOrWhiteSpace(instituicao.NomeFantasia) ? instituicaoBuscado.NomeFantasia : instituicao.NomeFantasia;
         }
         _context.SaveChanges();
     }
