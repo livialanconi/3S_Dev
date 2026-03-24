@@ -23,7 +23,13 @@ public partial class ComentarioEvento
 
     public Guid? IdUsuario { get; set; }
 
+    public Guid? IdEvento { get; set; }
+
+    [ForeignKey("IdEvento")]
+    [InverseProperty("ComentarioEventos")]
+    public virtual Evento? IdEventoNavigation { get; set; }
+
     [ForeignKey("IdUsuario")]
     [InverseProperty("ComentarioEventos")]
-    public virtual Evento? IdUsuarioNavigation { get; set; }
+    public virtual Usuario? IdUsuarioNavigation { get; set; }
 }

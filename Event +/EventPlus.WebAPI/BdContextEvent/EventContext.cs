@@ -32,17 +32,19 @@ public partial class EventContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Database=EventPlus;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=EventPlus;Trusted_Connection=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<ComentarioEvento>(entity =>
         {
-            entity.HasKey(e => e.IdComentarioEvento).HasName("PK__Comentar__4305A1F1337F6244");
+            entity.HasKey(e => e.IdComentarioEvento).HasName("PK__Comentar__4305A1F1B27ADD70");
 
             entity.Property(e => e.IdComentarioEvento).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__IdUsu__75A278F5");
+            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__IdEve__04E4BC85");
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__IdUsu__03F0984C");
         });
 
         modelBuilder.Entity<Evento>(entity =>

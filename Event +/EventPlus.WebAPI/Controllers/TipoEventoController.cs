@@ -98,7 +98,7 @@ public class TipoEventoController : ControllerBase
                 Titulo = tipoEvento.Titulo!
             };
 
-            _tipoEventoRepository.Atualizar(id, tipoe);
+            _tipoEventoRepository.Atualizar(id, tipoEventoAtualizado);
             return StatusCode(204);
         }
         catch (Exception erro)

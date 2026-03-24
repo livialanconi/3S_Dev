@@ -69,7 +69,8 @@ public class UsuarioRepository : IUsuarioRepository
     {
         usuario.Senha = Criptografia.GerarHash(usuario.Senha);
 
-            _context.Usuarios.Add(usuario);
+        _context.Usuarios.Add(usuario);
+        _context.SaveChanges();
     }
 
     public void Deletar(Guid id)

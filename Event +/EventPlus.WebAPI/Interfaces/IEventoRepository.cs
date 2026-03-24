@@ -10,4 +10,6 @@ public interface IEventoRepository
         void Atualizar(Guid id, Evento evento);
     List<Evento> ProximosEventos();
     Evento BuscarPorId(Guid id);
+    object? ListarPorId(Guid idUsuario);
+    object? CadastrarEventos();
 }
