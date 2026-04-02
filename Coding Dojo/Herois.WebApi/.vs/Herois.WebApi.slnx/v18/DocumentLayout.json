@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\controller\\missoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:controller\\missoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\controller\\heroiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:controller\\heroiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\repository\\heroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:repository\\heroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\repository\\missaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:repository\\missaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\interfaces\\imissaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:interfaces\\imissaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\controller\\equipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:controller\\equipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\dto\\equipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:dto\\equipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\interfaces\\iequiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:interfaces\\iequiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\repository\\equiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:repository\\equiperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\dto\\missaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:dto\\missaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\interfaces\\iheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:interfaces\\iheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\models\\heroi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:models\\heroi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\models\\missao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:models\\missao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\dto\\heroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:dto\\heroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\bdcontextherois\\heroiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:bdcontextherois\\heroiscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\models\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:models\\equipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|c:\\users\\42113437856\\desktop\\3s_dev\\coding dojo\\herois.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C1D0387-A883-475B-8A6C-2B950A28B210}|Herois.WebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMissaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IMissaoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMissaoRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IMissaoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMissaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:05:29.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EquipeController.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\EquipeController.cs",
+              "RelativeDocumentMoniker": "Controller\\EquipeController.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\EquipeController.cs",
+              "RelativeToolTip": "Controller\\EquipeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:52:04.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MissoesController.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\MissoesController.cs",
+              "RelativeDocumentMoniker": "Controller\\MissoesController.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\MissoesController.cs",
+              "RelativeToolTip": "Controller\\MissoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:59:10.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeroisController.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\HeroisController.cs",
+              "RelativeDocumentMoniker": "Controller\\HeroisController.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Controller\\HeroisController.cs",
+              "RelativeToolTip": "Controller\\HeroisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:56:39.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeroiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\HeroiRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\HeroiRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\HeroiRepository.cs",
+              "RelativeToolTip": "Repository\\HeroiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:16:15.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MissaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\MissaoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MissaoRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\MissaoRepository.cs",
+              "RelativeToolTip": "Repository\\MissaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:14:58.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\EquipeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\EquipeDTO.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\EquipeDTO.cs",
+              "RelativeToolTip": "DTO\\EquipeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:03:35.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEquipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IEquipeRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEquipeRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IEquipeRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEquipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:04:26.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EquipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\EquipeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EquipeRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Repository\\EquipeRepository.cs",
+              "RelativeToolTip": "Repository\\EquipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:09:18.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IHeroiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IHeroiRepository.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Interfaces\\IHeroiRepository.cs",
+              "RelativeToolTip": "Interfaces\\IHeroiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:04:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MissaoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\MissaoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MissaoDTO.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\MissaoDTO.cs",
+              "RelativeToolTip": "DTO\\MissaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:03:57.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Missao.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Missao.cs",
+              "RelativeDocumentMoniker": "Models\\Missao.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Missao.cs",
+              "RelativeToolTip": "Models\\Missao.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:50:35.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Heroi.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Heroi.cs",
+              "RelativeDocumentMoniker": "Models\\Heroi.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Heroi.cs",
+              "RelativeToolTip": "Models\\Heroi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:50:33.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HeroiDTO.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\HeroiDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\HeroiDTO.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\DTO\\HeroiDTO.cs",
+              "RelativeToolTip": "DTO\\HeroiDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:03:02.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:52:30.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HeroisContext.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\BdContextHerois\\HeroisContext.cs",
+              "RelativeDocumentMoniker": "BdContextHerois\\HeroisContext.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\BdContextHerois\\HeroisContext.cs",
+              "RelativeToolTip": "BdContextHerois\\HeroisContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:48:31.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Equipe.cs",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Equipe.cs",
+              "RelativeDocumentMoniker": "Models\\Equipe.cs",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\Models\\Equipe.cs",
+              "RelativeToolTip": "Models\\Equipe.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:50:30.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\Coding Dojo\\Herois.WebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-02T11:49:07.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -59,3 +59,5 @@ CREATE TABLE ComentarioEvento(
 	IdUsuario UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Evento(IdEvento)
 );
 GO
+
+SELECT * FROM Usuario;
