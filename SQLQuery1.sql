@@ -1,0 +1,32 @@
+CREATE DATABASE Herois;
+
+USE Herois;
+
+CREATE TABLE Equipe (
+    IdEquipe INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM Equipe;
+
+CREATE TABLE Heroi (
+    IdHeroi INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Poder VARCHAR(100) NOT NULL,
+    EquipeId INT NOT NULL,
+    FOREIGN KEY (EquipeId) REFERENCES Equipe(IdEquipe)
+);
+
+SELECT * FROM Heroi; 
+
+CREATE TABLE Missao (
+    IdMissao INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Descricao VARCHAR(255) NOT NULL,
+    HeroiId INT NOT NULL,
+    EquipeId INT NOT NULL,
+    FOREIGN KEY (HeroiId) REFERENCES Heroi(IdHeroi),
+    FOREIGN KEY (EquipeId) REFERENCES Equipe(IdEquipe)
+);
+SELECT * FROM Missao;
