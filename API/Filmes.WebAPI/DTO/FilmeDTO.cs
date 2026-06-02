@@ -1,8 +1,13 @@
-﻿namespace Filmes.WebAPI.DTO;
+﻿using Microsoft.AspNetCore.Http;
 
-public class FilmeDTO
+namespace FIlmes.WebAPI.DTO
 {
-    public string? Nome { get; set; }
-    public IFormFile? Imagem { get; set; }
-    public Guid? IdGenero { get; set; }
+    public class FilmeDTO
+    {
+        public string? Nome { get; set; }
+
+        public IFormFile? Imagem { get; set; }
+
+        public Guid IdGenero { get; set; }
+    }
 }

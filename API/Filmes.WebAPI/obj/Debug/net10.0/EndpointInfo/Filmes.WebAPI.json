@@ -5,12 +5,12 @@
     "description": "Uma API com catálogo de filmes",
     "termsOfService": "https://example.com/terms",
     "contact": {
-      "name": "livialanconi",
-      "url": "https://github.com/livialanconi"
+      "name": "laur4moura",
+      "url": "https://github.com/laur4moura"
     },
     "license": {
       "name": "Example License",
-      "url": "https://opensource.org/licenses/MIT"
+      "url": "https://eample.com/license"
     },
     "version": "v1"
   },
@@ -477,11 +477,14 @@
         "additionalProperties": false
       },
       "GeneroDTO": {
+        "required": [
+          "nome"
+        ],
         "type": "object",
         "properties": {
           "nome": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -538,7 +541,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Insira o token JWT:",
+        "description": "Insira o token JWT",
         "scheme": "Bearer",
         "bearerFormat": "JWT"
       }

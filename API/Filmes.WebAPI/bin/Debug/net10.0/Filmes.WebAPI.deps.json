@@ -6,8 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "Filmes.WebAPI/1.0.0": {
+      "FIlmes.WebAPI/1.0.0": {
         "dependencies": {
+          "AuthorizeNet": "2.0.5",
           "BCrypt.Net-Next": "4.1.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.3",
           "Microsoft.EntityFrameworkCore": "10.0.3",
@@ -17,7 +18,15 @@
           "System.IdentityModel.Tokens.Jwt": "8.16.0"
         },
         "runtime": {
-          "Filmes.WebAPI.dll": {}
+          "FIlmes.WebAPI.dll": {}
+        }
+      },
+      "AuthorizeNet/2.0.5": {
+        "runtime": {
+          "lib/AuthorizeNet.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
         }
       },
       "Azure.Core/1.47.1": {
@@ -823,10 +832,17 @@
     }
   },
   "libraries": {
-    "Filmes.WebAPI/1.0.0": {
+    "FIlmes.WebAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AuthorizeNet/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AI1QiifdxqoSFO2Cp7zF+NhRRzlbMnTI6kS++pK0azZQceXu1WoIZGdKfArn4zP3bjbHSzqdhzrNM7DWSR1FTg==",
+      "path": "authorizenet/2.0.5",
+      "hashPath": "authorizenet.2.0.5.nupkg.sha512"
     },
     "Azure.Core/1.47.1": {
       "type": "package",

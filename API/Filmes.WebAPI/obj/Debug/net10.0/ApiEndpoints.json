@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "Get",
     "RelativePath": "api/Filme",
     "HttpMethod": "GET",
@@ -10,7 +10,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "Post",
     "RelativePath": "api/Filme",
     "HttpMethod": "POST",
@@ -29,14 +29,14 @@
       },
       {
         "Name": "IdGenero",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "PutBody",
     "RelativePath": "api/Filme",
     "HttpMethod": "PUT",
@@ -45,14 +45,14 @@
     "Parameters": [
       {
         "Name": "filmeAtualizado",
-        "Type": "Filmes.WebAPI.Models.Filme",
+        "Type": "FIlmes.WebAPI.Models.Filme",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "GetById",
     "RelativePath": "api/Filme/{id}",
     "HttpMethod": "GET",
@@ -68,7 +68,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "Put",
     "RelativePath": "api/Filme/{id}",
     "HttpMethod": "PUT",
@@ -92,14 +92,14 @@
       },
       {
         "Name": "IdGenero",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.FilmeController",
     "Method": "Delete",
     "RelativePath": "api/Filme/{id}",
     "HttpMethod": "DELETE",
@@ -115,7 +115,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "Get",
     "RelativePath": "api/Genero",
     "HttpMethod": "GET",
@@ -125,7 +125,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "Post",
     "RelativePath": "api/Genero",
     "HttpMethod": "POST",
@@ -133,15 +133,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "novoGenero",
-        "Type": "Filmes.WebAPI.DTO.GeneroDTO",
+        "Name": "generoDto",
+        "Type": "FIlmes.WebAPI.DTO.GeneroDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "PutBody",
     "RelativePath": "api/Genero",
     "HttpMethod": "PUT",
@@ -150,14 +150,14 @@
     "Parameters": [
       {
         "Name": "generoAtualizado",
-        "Type": "Filmes.WebAPI.Models.Genero",
+        "Type": "FIlmes.WebAPI.Models.Genero",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "GetById",
     "RelativePath": "api/Genero/{id}",
     "HttpMethod": "GET",
@@ -173,7 +173,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "Put",
     "RelativePath": "api/Genero/{id}",
     "HttpMethod": "PUT",
@@ -187,14 +187,14 @@
       },
       {
         "Name": "novoGenero",
-        "Type": "Filmes.WebAPI.DTO.GeneroDTO",
+        "Type": "FIlmes.WebAPI.DTO.GeneroDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.GeneroController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.GeneroController",
     "Method": "Delete",
     "RelativePath": "api/Genero/{id}",
     "HttpMethod": "DELETE",
@@ -210,7 +210,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.LoginController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login",
     "HttpMethod": "POST",
@@ -219,14 +219,14 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "Filmes.WebAPI.DTO.LoginDTO",
+        "Type": "FIlmes.WebAPI.DTO.LoginDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Filmes.WebAPI.Controllers.UsuarioController",
+    "ContainingType": "FIlmes.WebAPI.Controllers.UsuarioController",
     "Method": "Post",
     "RelativePath": "api/Usuario",
     "HttpMethod": "POST",
@@ -235,7 +235,7 @@
     "Parameters": [
       {
         "Name": "novoUsuario",
-        "Type": "Filmes.WebAPI.Models.Usuario",
+        "Type": "FIlmes.WebAPI.Models.Usuario",
         "IsRequired": true
       }
     ],

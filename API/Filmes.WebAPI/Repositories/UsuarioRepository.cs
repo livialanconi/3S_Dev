@@ -1,13 +1,14 @@
-﻿using Filmes.WebAPI.BdContextFilme;
-using Filmes.WebAPI.Interfaces;
-using Filmes.WebAPI.Models;
-using Filmes.WebAPI.Utils;
+﻿using FIlmes.WebAPI.BdContextFilme;
+using FIlmes.WebAPI.Interface;
+using FIlmes.WebAPI.Models;
+using FIlmes.WebAPI.Utils;
 
-namespace Filmes.WebAPI.Repositories;
+namespace FIlmes.WebAPI.Repositories;
 
 public class UsuarioRepository : IUsuarioRepository
 {
     private readonly FilmeContext _context;
+
     public UsuarioRepository(FilmeContext context)
     {
         _context = context;
@@ -18,8 +19,7 @@ public class UsuarioRepository : IUsuarioRepository
         try
         {
             Usuario usuarioBuscado = _context.Usuarios.FirstOrDefault(u => u.Email == email)!;
-
-            if(usuarioBuscado != null)
+            if (usuarioBuscado != null)
             {
                 bool confere = Criptografia.CompararHash(senha, usuarioBuscado.Senha!);
 
@@ -28,11 +28,11 @@ public class UsuarioRepository : IUsuarioRepository
                     return usuarioBuscado;
                 }
             }
-
-            return null!;
+            return null;
         }
         catch (Exception)
         {
+
             throw;
         }
     }
@@ -42,15 +42,15 @@ public class UsuarioRepository : IUsuarioRepository
         try
         {
             Usuario usuarioBuscado = _context.Usuarios.Find(id.ToString())!;
-            if(usuarioBuscado != null)
+            if (usuarioBuscado != null)
             {
                 return usuarioBuscado;
             }
-
             return null!;
         }
         catch (Exception)
         {
+
             throw;
         }
     }
@@ -60,15 +60,18 @@ public class UsuarioRepository : IUsuarioRepository
         try
         {
             novoUsuario.IdUsuario = Guid.NewGuid().ToString();
-            novoUsuario.Senha = Criptografia.GerarHash(novoUsuario.Senha!);
+            novoUsuario.Senha = Criptografia.GerarHash
+                (novoUsuario.Senha!);
 
             _context.Usuarios.Add(novoUsuario);
             _context.SaveChanges();
+
         }
         catch (Exception)
         {
 
             throw;
         }
+        
     }
 }

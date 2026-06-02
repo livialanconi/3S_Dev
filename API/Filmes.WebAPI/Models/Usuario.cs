@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Filmes.WebAPI.Models;
+namespace FIlmes.WebAPI.Models;
 
 [Table("Usuario")]
-[Index("Email", Name = "UQ_Usuario_Email", IsUnique = true)]
 public partial class Usuario
 {
     [Key]

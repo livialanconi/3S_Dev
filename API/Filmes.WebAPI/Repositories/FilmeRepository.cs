@@ -1,12 +1,17 @@
-﻿using Filmes.WebAPI.BdContextFilme;
-using Filmes.WebAPI.Interfaces;
-using Filmes.WebAPI.Models;
+﻿using FIlmes.WebAPI.BdContextFilme;
+using FIlmes.WebAPI.Controllers;
+using FIlmes.WebAPI.Models;
+using FILmes.WebAPI.Interface;
+using Microsoft.AspNetCore.Mvc;
+using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
 
-namespace Filmes.WebAPI.Repositories;
+namespace FIlmes.WebAPI.Repositories;
 
 public class FilmeRepository : IFilmeRepository
 {
     private readonly FilmeContext _context;
+
     public FilmeRepository(FilmeContext context)
     {
         _context = context;
@@ -17,13 +22,11 @@ public class FilmeRepository : IFilmeRepository
         try
         {
             Filme filmeBuscado = _context.Filmes.Find(filmeAtualizado.IdFilme)!;
-
-            if(filmeBuscado != null)
+            if (filmeBuscado != null) 
             {
                 filmeBuscado.Titulo = filmeAtualizado.Titulo;
                 filmeBuscado.IdGenero = filmeAtualizado.IdGenero;
             }
-
             _context.Filmes.Update(filmeBuscado!);
             _context.SaveChanges();
         }
@@ -40,11 +43,10 @@ public class FilmeRepository : IFilmeRepository
         {
             Filme filmeBuscado = _context.Filmes.Find(id.ToString())!;
 
-            if(filmeBuscado != null)
+            if (filmeBuscado != null) 
             {
                 filmeBuscado.Titulo = filmeAtualizado.Titulo;
-                filmeBuscado.IdGenero =
-                filmeAtualizado.IdGenero;
+                filmeBuscado.IdGenero = filmeAtualizado.IdGenero;
             }
 
             _context.Filmes.Update(filmeBuscado!);
@@ -79,12 +81,18 @@ public class FilmeRepository : IFilmeRepository
             novoFilme.IdFilme = Guid.NewGuid().ToString();
 
             _context.Filmes.Add(novoFilme);
-            _context.SaveChanges();        
+            _context.SaveChanges();
         }
         catch (Exception)
         {
+
             throw;
         }
+    }
+
+    public void Cadastrar(FilmeController novoFilme)
+    {
+        throw new NotImplementedException();
     }
 
     public void Deletar(Guid id)
@@ -92,16 +100,15 @@ public class FilmeRepository : IFilmeRepository
         try
         {
             Filme filmeBuscado = _context.Filmes.Find(id.ToString())!;
-
-            if(filmeBuscado != null)
-            {
+            if (filmeBuscado != null) 
+            { 
                 _context.Filmes.Remove(filmeBuscado);
             }
-
             _context.SaveChanges();
         }
         catch (Exception)
         {
+
             throw;
         }
     }
@@ -110,13 +117,16 @@ public class FilmeRepository : IFilmeRepository
     {
         try
         {
-            List<Filme> listaFilmes = _context.Filmes.ToList();
+            List<Filme> listaFilmes = _context.Filmes.Include(f => f.IdGeneroNavigation).ToList();
 
             return listaFilmes;
         }
         catch (Exception)
         {
+
             throw;
         }
     }
+
+    
 }

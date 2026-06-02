@@ -1,4 +1,4 @@
-﻿namespace Filmes.WebAPI.Utils;
+﻿namespace FIlmes.WebAPI.Utils;
 
 public static class Criptografia
 {
@@ -9,6 +9,7 @@ public static class Criptografia
 
     public static bool CompararHash(string senhaForm, string senhaBanco)
     {
+
         return BCrypt.Net.BCrypt.Verify(senhaForm, senhaBanco);
     }
 

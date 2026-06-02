@@ -1,36 +1,35 @@
-﻿using Filmes.WebAPI.Interfaces;
-using Filmes.WebAPI.Models;
+﻿using FIlmes.WebAPI.Interface;
+using FIlmes.WebAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
 
-namespace Filmes.WebAPI.Controllers;
-
-[Route("api/[controller]")]
-[ApiController]
-public class UsuarioController : ControllerBase
+namespace FIlmes.WebAPI.Controllers
 {
-    private readonly IUsuarioRepository _usuarioRepository;
-
-    public UsuarioController(IUsuarioRepository usuarioRepository)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UsuarioController : ControllerBase
     {
-        _usuarioRepository = usuarioRepository;
-    }
+        private readonly IUsuarioRepository _usuarioRepository;
 
-    public ClaimsIdentity? IdUsuario { get; internal set; }
-
-    [HttpPost]
-    public IActionResult Post(Usuario novoUsuario)
-    {
-        try
+        public UsuarioController(IUsuarioRepository usuarioRepository) 
         {
-            _usuarioRepository.Cadastrar(novoUsuario);
-
-            return StatusCode(201, novoUsuario);
+            _usuarioRepository = usuarioRepository;
         }
-        catch (Exception erro)
+
+        [HttpPost]
+
+        public IActionResult Post(Usuario novoUsuario) 
         {
-            return BadRequest(erro.Message);
+            try
+            {
+                _usuarioRepository.Cadastrar(novoUsuario);
+                return StatusCode(201, novoUsuario);
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest(erro.Message);
+            }
         }
     }
 }

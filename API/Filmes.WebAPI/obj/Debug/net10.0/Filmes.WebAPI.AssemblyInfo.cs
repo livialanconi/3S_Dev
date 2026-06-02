@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Filmes.WebAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FIlmes.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8713fb453a34c5e99fb76250b156f39b791f137e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Filmes.WebAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Filmes.WebAPI")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d0587d4d4d1f2c8f172d73149e62118bb443ee9")]
+[assembly: System.Reflection.AssemblyProductAttribute("FIlmes.WebAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FIlmes.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
