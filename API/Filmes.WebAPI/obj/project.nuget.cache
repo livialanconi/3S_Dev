@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Boz6EoLyfQk=",
+  "dgSpecHash": "IpeONp7zKTU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\42113437856\\.nuget\\packages\\authorizenet\\2.0.5\\authorizenet.2.0.5.nupkg.sha512",
     "C:\\Users\\42113437856\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
@@ -66,9 +66,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "O pacote 'AuthorizeNet 2.0.5' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net10.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "projectPath": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
+      "projectPath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
+      "filePath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
       "libraryId": "AuthorizeNet",
       "targetGraphs": [
         "net10.0"

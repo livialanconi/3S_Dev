@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj": {}
+    "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj": {
+    "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
         "projectName": "FIlmes.WebAPI",
-        "projectPath": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
+        "projectPath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\FIlmes.WebAPI.csproj",
         "packagesPath": "C:\\Users\\42113437856\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\42113437856\\Desktop\\3Semestre\\BACK-END\\FIlmes.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\42113437856\\Desktop\\3S_Dev\\API\\FIlmes.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
